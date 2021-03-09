@@ -39,21 +39,21 @@
     "role":"Hunter",
     "attack_type":"Ranged",
     "power_type":"Physical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Anubis",
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Ao Kuang",
     "role":"Mage",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Aphrodite",
@@ -95,7 +95,7 @@
     "role":"Guardian",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Celtic",
+    "pantheon":"Celtic"
   },
   {
     "name":"Athena",
@@ -116,14 +116,14 @@
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Slavic",
+    "pantheon":"Slavic"
   },
   {
     "name":"Bacchus",
     "role":"Guardian",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Bakasura",
@@ -137,21 +137,21 @@
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Voodoo",
+    "pantheon":"Voodoo"
   },
   {
     "name":"Bastet",
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Bellona",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Cabrakan",
@@ -179,7 +179,7 @@
     "role":"Hunter",
     "attack_type":"Ranged",
     "power_type":"Physical",
-    "pantheon":"Celtic",
+    "pantheon":"Celtic"
   },
   {
     "name":"Chaac",
@@ -193,14 +193,14 @@
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Chernobog",
     "role":"Hunter",
     "attack_type":"Ranged",
     "power_type":"Physical",
-    "pantheon":"Slavic",
+    "pantheon":"Slavic"
   },
   {
     "name":"Chiron",
@@ -221,28 +221,28 @@
     "role":"Guardian",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Great Old Ones",
+    "pantheon":"Great Old Ones"
   },
   {
     "name":"Cu Chulainn",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Celtic",
+    "pantheon":"Celtic"
   },
   {
     "name":"Cupid",
     "role":"Hunter",
     "attack_type":"Ranged",
     "power_type":"Physical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Da Ji",
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Danzaburou",
@@ -256,35 +256,35 @@
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Erlang Shen",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Fafnir",
     "role":"Guardian",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Fenrir",
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Freya",
     "role":"Mage",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Ganesha",
@@ -298,14 +298,14 @@
     "role":"Guardian",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Guan Yu",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Hachiman",
@@ -326,21 +326,21 @@
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Heimdallr",
     "role":"Hunter",
     "attack_type":"Ranged",
     "power_type":"Physical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Hel",
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Hera",
@@ -354,21 +354,21 @@
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Horus",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Hou Yi",
     "role":"Hunter",
     "attack_type":"Ranged",
     "power_type":"Physical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Hun Batz",
@@ -382,7 +382,7 @@
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Izanami",
@@ -396,21 +396,21 @@
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Jing Wei",
     "role":"Hunter",
     "attack_type":"Ranged",
     "power_type":"Physical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Jormungandr",
     "role":"Guardian",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Kali",
@@ -424,14 +424,14 @@
     "role":"Guardian",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"King Arthur",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Arthurian",
+    "pantheon":"Arthurian"
   },
   {
     "name":"Kukulkan",
@@ -459,7 +459,7 @@
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Medusa",
@@ -473,35 +473,35 @@
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Merlin",
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Arthurian",
+    "pantheon":"Arthurian"
   },
   {
     "name":"Mulan",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Ne Zha",
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Neith",
     "role":"Hunter",
     "attack_type":"Ranged",
     "power_type":"Physical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Nemesis",
@@ -522,42 +522,42 @@
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Nu Wa",
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Odin",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Olorun",
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Yoruba",
+    "pantheon":"Yoruba"
   },
   {
     "name":"Osiris",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Pele",
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Polynesian",
+    "pantheon":"Polynesian"
   },
   {
     "name":"Persephone",
@@ -578,7 +578,7 @@
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Raijin",
@@ -599,7 +599,7 @@
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Ravana",
@@ -620,42 +620,42 @@
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Set",
     "role":"Assassin",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Skadi",
     "role":"Hunter",
     "attack_type":"Ranged",
     "power_type":"Physical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Sobek",
     "role":"Guardian",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Egyptian",
+    "pantheon":"Egyptian"
   },
   {
     "name":"Sol",
     "role":"Mage",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Norse",
+    "pantheon":"Norse"
   },
   {
     "name":"Sun Wukong",
     "role":"Warrior",
     "attack_type":"Melee",
     "power_type":"Physical",
-    "pantheon":"Chinese",
+    "pantheon":"Chinese"
   },
   {
     "name":"Susano",
@@ -669,14 +669,14 @@
     "role":"Guardian",
     "attack_type":"Ranged",
     "power_type":"Magical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Terra",
     "role":"Guardian",
     "attack_type":"Melee",
     "power_type":"Magical",
-    "pantheon":"Roman",
+    "pantheon":"Roman"
   },
   {
     "name":"Thanatos",
@@ -789,6 +789,5 @@
     "attack_type":"Ranged",
     "power_type":"Magical",
     "pantheon":"Chinese"
-  },
-  
+  }
 ]
