@@ -1,12 +1,11 @@
 body {
   background-image: url("Smite Project Site/Background/background_image.jpg");
   background-repeat: no-repeat;
-  opacity: 0.5;
-  color: black;
+  background-color: black;
 }
 
 .textbox {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255, 0.85);
   margin: 25%;
   padding: 2%;
   width: auto;
