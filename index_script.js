@@ -5,5 +5,17 @@ function getUsernames() {
   localStorage.setItem("_usernamePaladins",playerPaladins);
   console.log(playerSmite);
   console.log(playerPaladins);
-  window.location.href = "random_god_generator.html";
+  ///window.location.href = "random_god_generator.html";
 }
+///function nextPage() {
+  ///evt.preventDefault();
+ /// window.location.replace("random_god_generator.html");
+///  return false;
+///}
+
+///btn.addEventListener("click", nextPage());
+document.getElementById("btn").addEventListener("click", function(evt) {
+  evt.preventDefault();
+  window.location.replace("random_god_generator.html");
+  return false;
+});
