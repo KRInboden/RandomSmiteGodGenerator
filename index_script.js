@@ -7,7 +7,7 @@ function getUsernames() {
   ///Paladins coding ---console.log(playerPaladins);
 }
 
-document.getElementById("btn").addEventListener("click", function(evt) {
+document.getElementById("signIn").addEventListener("click", function(evt) {
   evt.preventDefault();
   window.location.replace("random_god_generator_smite.html");
   return false;
