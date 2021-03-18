@@ -154,6 +154,13 @@
     "pantheon":"Roman"
   },
   {
+    "name":"Brined Ion Ed",
+    "role":"Fisher",
+    "attack_type":"Reel",
+    "power_type":"Fish",
+    "pantheon":"Atlantis"
+  },
+  {
     "name":"Cabrakan",
     "role":"Guardian",
     "attack_type":"Melee",

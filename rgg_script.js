@@ -14,8 +14,9 @@ function randomizer() {
       console.log(god.name);
       let name = god.name;
       let letter = god.name[0].toLowerCase();
-
-      name = name.replace(/\s/g, '');
+      //remove spaces and apostrophes
+      name = name.replace(/[\s']/g, '');
+      //name = name.replace(/'/g, '');
 
       let path =`Smite_Project_Site/gods/${letter}/${name}.jpg`
       preloadImage(path, changePicture)
