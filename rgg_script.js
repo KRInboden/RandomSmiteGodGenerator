@@ -23,6 +23,8 @@ function randomizer() {
     // Create new img element
       img.src=`Smite_Project_Site/gods/${letter}/${name}.jpg`;
       picture.src = img.src;
+
+      document.getElementById("godName").innerHTML = god.name;
     });
 }
 function selectRandomGod() {
