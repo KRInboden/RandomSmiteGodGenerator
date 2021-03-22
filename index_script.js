@@ -9,6 +9,6 @@ function getUsernames() {
 
 document.getElementById("signIn").addEventListener("click", function(evt) {
   evt.preventDefault();
-  window.location.replace("random_god_generator_smite.html");
+  window.location.replace("paladins_random_champion.html");
   return false;
 });
