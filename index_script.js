@@ -19,5 +19,11 @@ document.getElementById("signIn").addEventListener("click", function(evt) {
 let button = document.querySelector("button");
   button.addEventListener("click", () => {
     getUsernames();
-    window.location.replace("random_god_generator.html");
+    var selection = document.getElementById("selectionChoice").value;
+    if (selection == "Smite") {
+      window.location.replace("random_god_generator.html");
+    }
+    else if (selection == "Paladins") {
+      window.location.replace("paladins_random_champion.html");
+    }
   });
