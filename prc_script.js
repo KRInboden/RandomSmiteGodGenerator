@@ -28,7 +28,7 @@ function randomizer() {
     });
 }
 function selectRandomHero() {
-  return parseInt(Math.floor(Math.random()*47));
+  return parseInt(Math.floor(Math.random()*championList.length));
 }
 function preloadImage(url, callback) {
     img.src=url;

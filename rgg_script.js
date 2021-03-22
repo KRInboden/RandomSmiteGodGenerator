@@ -28,7 +28,7 @@ function randomizer() {
     });
 }
 function selectRandomGod() {
-  return parseInt(Math.floor(Math.random()*113));
+  return parseInt(Math.floor(Math.random()*godList.length));
 }
 function preloadImage(url, callback) {
     img.src=url;
