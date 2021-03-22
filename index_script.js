@@ -7,10 +7,15 @@ function getUsernames() {
   ///Paladins coding ---console.log(playerPaladins);
 }
 
+function clearLocal() {
+  localStorage.clear();
+}
+
 document.getElementById("signIn").addEventListener("click", function(evt) {
   evt.preventDefault();
   return false;
 });
+
 let button = document.querySelector("button");
   button.addEventListener("click", () => {
     getUsernames();
