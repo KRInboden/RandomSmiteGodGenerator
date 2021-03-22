@@ -1,10 +1,10 @@
 function getUsernames() {
   var playerSmite = document.getElementById("smiteUsername").value;
-  ///Paladins coding ---var playerPaladins = document.getElementById("paladinsUsername").value;
+  var playerPaladins = document.getElementById("paladinsUsername").value;
   localStorage.setItem("_usernameSmite",playerSmite);
-  ///Paladins coding ---localStorage.setItem("_usernamePaladins",playerPaladins);
+  localStorage.setItem("_usernamePaladins",playerPaladins);
   console.log(playerSmite);
-  ///Paladins coding ---console.log(playerPaladins);
+  console.log(playerPaladins);
 }
 
 function clearLocal() {
