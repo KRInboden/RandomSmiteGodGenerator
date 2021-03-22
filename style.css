@@ -5,8 +5,26 @@ body, html {
   margin: 0;
   overflow: hidden;
 }
-.bg {
-  background-image: url("Smite_Project_Site/Background/background_image.jpg");
+.bgSignIn {
+  background-image: url("Smite_Project_Site/backgrounds/signin-bg.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.bgSmite {
+  background-image: url("Smite_Project_Site/backgrounds/background_image.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.bgPaladins {
+  background-image: url("Smite_Project_Site/backgrounds/paladins_bg.jpg");
   height: 100%;
   width: 100%;
   background-position: center;
@@ -22,12 +40,28 @@ body, html {
   padding: 2%;
   width: auto;
   height: auto;
-  border-color: yellow;
+  border-color: silver;
   border-style: solid;
   border-width: 5px;
   border-radius: 25px;
 }
-.textbox2 {
+.textboxSmite {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  padding: 2%;
+  width: auto;
+  height: auto;
+  border-color: yellow;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 25px;
+  float: right;
+  position: fixed;
+  right: 350px;
+  top: 400px;
+  left: 575px;
+}
+.textboxPaladins {
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(2px);
   padding: 2%;
@@ -81,7 +115,21 @@ body, html {
   overflow: auto;
 }
 /*picture display box*/
-#displayBox {
+#displayBoxSmite {
+  padding: 2%;
+  width: 300px;
+  height: 500px;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 25px;
+  border-color: yellow;
+  background-color: black;
+  float: left;
+  position: fixed;
+  left: 100px;
+  bottom: 175px;
+}
+#displayBoxPaladins {
   padding: 2%;
   width: 300px;
   height: 500px;
