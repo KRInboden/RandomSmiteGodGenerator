@@ -6,7 +6,7 @@ var _username = localStorage.getItem("_usernameSmite");
 let usernameLocation = document.getElementById("username");
 let username = document.createTextNode(_username);
 usernameLocation.appendChild(username);
-    
+
 
 function randomizer() {
   fetch("gods.json")
@@ -19,23 +19,23 @@ function randomizer() {
       let godListNew = []
 
       //for loop to create new gaurdian,hunter,assassin,mage,warrior arrays
-      for (let i= 0;i<godList.length;i++) {
-        if (godList[i].role == "Guardian") {
-          godListNew.push(godList[i]);
-        }
-        else if (godList[i].role == "Guardian") {
-          godListNew.push(godList[i]);
-        }
-        else if (godList[i].role == "Guardian") {
-          godListNew.push(godList[i]);
-        }
-        else if (godList[i].role == "Guardian") {
-          godListNew.push(godList[i]);
-        }
-        else if (godList[i].role == "Guardian") {
-          godListNew.push(godList[i]);
-        }
-      }
+      // for (let i= 0;i<godList.length;i++) {
+      //   if (godList[i].role == "Guardian") {
+      //     godListNew.push(godList[i]);
+      //   }
+      //   else if (godList[i].role == "Guardian") {
+      //     godListNew.push(godList[i]);
+      //   }
+      //   else if (godList[i].role == "Guardian") {
+      //     godListNew.push(godList[i]);
+      //   }
+      //   else if (godList[i].role == "Guardian") {
+      //     godListNew.push(godList[i]);
+      //   }
+      //   else if (godList[i].role == "Guardian") {
+      //     godListNew.push(godList[i]);
+      //   }
+      // }
 
       let god = godList[selectRandomGod()];
       //saving god info into variables
@@ -101,3 +101,8 @@ function preloadImage(url, callback) {
 function changePicture() {
     picture.src = img.src;
 }
+let button = document.querySelector("button");
+  button.addEventListener("click", () => {
+    randomizer();
+  });
+    
