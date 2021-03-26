@@ -8,10 +8,11 @@ function randomizer() {
       return resp.json();
     })
     .then(function(data) {
-      championList = data
+      championList = data;
+      
       
       let hero = championList[selectRandomHero()];
-      console.log(hero.name);
+      
       let name = hero.name;
       let letter = hero.name[0].toLowerCase();
       //remove spaces and apostrophes
@@ -24,7 +25,22 @@ function randomizer() {
       img.src=`Smite_Project_Site/champions/${letter}/${name}.jpg`;
       picture.src = img.src;
 
-      document.getElementById("championName").innerHTML = hero.name;
+      //remove previous txt nodes
+      document.getElementById("championName").innerHTML = "";
+      document.getElementById("championRole").innerHTML = "";
+
+      //create txt node in txtbox
+      var _name = document.getElementById("championName");
+      var heroName = document.createTextNode("Name: " + hero.name);
+      _name.appendChild(heroName);
+      
+      var _role = document.getElementById("championRole");
+      var heroRole = document.createTextNode("Role: " + hero.class);
+      _role.appendChild(heroRole);
+      
+      console.clear();
+      console.log(hero.name);
+      console.log(hero.class);
     });
 }
 function selectRandomHero() {
