@@ -1,4 +1,5 @@
 let godList = [];
+let godListNew = [];
 let picture = document.getElementById("hero");
 let img=new Image();
 
@@ -16,28 +17,56 @@ function randomizer() {
     .then(function(data) {
       godList = data;
 
-      let godListNew = []
+      
+      let sortRoleType = document.getElementById("sortRoleType").value;
 
-      //for loop to create new gaurdian,hunter,assassin,mage,warrior arrays
-      // for (let i= 0;i<godList.length;i++) {
-      //   if (godList[i].role == "Guardian") {
-      //     godListNew.push(godList[i]);
-      //   }
-      //   else if (godList[i].role == "Guardian") {
-      //     godListNew.push(godList[i]);
-      //   }
-      //   else if (godList[i].role == "Guardian") {
-      //     godListNew.push(godList[i]);
-      //   }
-      //   else if (godList[i].role == "Guardian") {
-      //     godListNew.push(godList[i]);
-      //   }
-      //   else if (godList[i].role == "Guardian") {
-      //     godListNew.push(godList[i]);
-      //   }
-      // }
+      //create new gaurdian,hunter,assassin,mage,warrior arrays
+      if (sortRoleType == "Guardian") {
+        godListNew = [];
+        for (let i= 0;i<godList.length;i++) {
+          if (godList[i].role == "Guardian") {
+            godListNew.push(godList[i]);
+          }
+        }
+      }
+      else if (sortRoleType == "Hunter") {
+        godListNew = [];
+        for (let i= 0;i<godList.length;i++) {
+          if (godList[i].role == "Hunter") {
+            godListNew.push(godList[i]);
+          }
+        }
+      }
+      else if (sortRoleType == "Assassin") {
+        godListNew = [];
+        for (let i= 0;i<godList.length;i++) {
+          if (godList[i].role == "Assassin") {
+            godListNew.push(godList[i]);
+          }
+        }
+      }
+      else if (sortRoleType == "Mage") {
+        godListNew = [];
+        for (let i= 0;i<godList.length;i++) {
+          if (godList[i].role == "Mage") {
+            godListNew.push(godList[i]);
+          }
+        }
+      }
+      else if (sortRoleType == "Warrior") {
+        godListNew = [];
+        for (let i= 0;i<godList.length;i++) {
+          if (godList[i].role == "Warrior") {
+            godListNew.push(godList[i]);
+          }
+        }
+      }
+      else {
+        godListNew = [];
+        godListNew = godList;
+      }
 
-      let god = godList[selectRandomGod()];
+      let god = godListNew[selectRandomGod()];
       //saving god info into variables
       // let role = god.role;
       // let pantheon = god.pantheon;
@@ -88,11 +117,11 @@ function randomizer() {
       console.clear();
       console.log(god.name);
       console.log(god.role, god.pantheon, god.attack_type, god.power_type);
-      console.log(godListGuardian.length);
+      console.log(godListNew.length);
     });
 }
 function selectRandomGod() {
-  return parseInt(Math.floor(Math.random()*godList.length));
+  return parseInt(Math.floor(Math.random()*godListNew.length));
 }
 function preloadImage(url, callback) {
     img.src=url;
