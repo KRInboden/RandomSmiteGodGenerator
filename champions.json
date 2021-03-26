@@ -1,7 +1,7 @@
 [
   {
     "name":"Androxus",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Ash",
@@ -21,7 +21,7 @@
   },
   {
     "name":"Buck",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Cassie",
@@ -41,7 +41,7 @@
   },
   {
     "name":"Evie",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Fernando",
@@ -85,11 +85,11 @@
   },
   {
     "name":"Koga",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Lex",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Lian",
@@ -97,7 +97,7 @@
   },
   {
     "name":"Maeve",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Makoa",
@@ -109,7 +109,7 @@
   },
   {
     "name":"Moji",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Pip",
@@ -133,7 +133,7 @@
   },
   {
     "name":"Skye",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Strix",
@@ -141,7 +141,7 @@
   },
   {
     "name":"Talus",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Terminus",
@@ -169,7 +169,7 @@
   },
   {
     "name":"Vora",
-    "class":"Flanker"
+    "class":"Flank"
   },
   {
     "name":"Willo",
@@ -185,6 +185,6 @@
   },
   {
     "name":"Zhin",
-    "class":"Flanker"
+    "class":"Flank"
   }
 ]

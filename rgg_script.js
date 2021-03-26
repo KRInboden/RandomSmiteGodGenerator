@@ -1,7 +1,13 @@
 let godList = [];
 let picture = document.getElementById("hero");
-var img=new Image();
+let img=new Image();
+
+var _username = localStorage.getItem("_usernameSmite");
+let usernameLocation = document.getElementById("username");
+let username = document.createTextNode(_username);
+usernameLocation.appendChild(username);
     
+
 function randomizer() {
   fetch("gods.json")
     .then(function(resp) {
@@ -10,14 +16,19 @@ function randomizer() {
     .then(function(data) {
       godList = data;
 
+      //for loop to create new array
+      // for (let i= 0;i<godList.length;i++) {
+
+      // }
+
       
       
       let god = godList[selectRandomGod()];
       //saving god info into variables
-      var role = god.role;
-      var pantheon = god.pantheon;
-      var attack_type = god.attack_type;
-      var power_type = god.power_type;
+      // let role = god.role;
+      // let pantheon = god.pantheon;
+      // let attack_type = god.attack_type;
+      // let power_type = god.power_type;
 
       
       let name = god.name;
@@ -40,24 +51,24 @@ function randomizer() {
       document.getElementById("godPantheon").innerHTML = "";
 
       //creating txt node on page
-      var _name = document.getElementById("godName");
-      var godName = document.createTextNode("Name: " + god.name);
+      let _name = document.getElementById("godName");
+      let godName = document.createTextNode("Name: " + god.name);
       _name.appendChild(godName);
       
-      var _role = document.getElementById("godRole");
-      var godRole = document.createTextNode("Role: " + role);
+      let _role = document.getElementById("godRole");
+      let godRole = document.createTextNode("Role: " + god.role);
       _role.appendChild(godRole);
       
-      var _attackType = document.getElementById("godAttack");
-      var godAttackType = document.createTextNode("Attack Type: " + attack_type);
+      let _attackType = document.getElementById("godAttack");
+      let godAttackType = document.createTextNode("Attack Type: " + god.attack_type);
       _attackType.appendChild(godAttackType);
       
-      var _powerType = document.getElementById("godPower");
-      var godPowerType = document.createTextNode("Power Type: " + power_type);
+      let _powerType = document.getElementById("godPower");
+      let godPowerType = document.createTextNode("Power Type: " + god.power_type);
       _powerType.appendChild(godPowerType);
       
-      var _pantheon = document.getElementById("godPantheon");
-      var godPantheon = document.createTextNode("Pantheon: " + pantheon);
+      let _pantheon = document.getElementById("godPantheon");
+      let godPantheon = document.createTextNode("Pantheon: " + god.pantheon);
       _pantheon.appendChild(godPantheon);
 
       console.clear();
