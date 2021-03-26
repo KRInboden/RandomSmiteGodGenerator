@@ -47,7 +47,7 @@ body, html {
 }
 .textboxSmite {
   background-color: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(8px);
   padding: 2%;
   width: auto;
   height: auto;
@@ -89,6 +89,11 @@ body, html {
 .text2 {
   text-align: center;
   justify-content: center;
+  align-items: center;
+  color: white;
+}
+.text3{
+  text-align: left;
   align-items: center;
   color: white;
 }

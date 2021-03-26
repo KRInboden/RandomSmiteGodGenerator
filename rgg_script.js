@@ -16,13 +16,27 @@ function randomizer() {
     .then(function(data) {
       godList = data;
 
-      //for loop to create new array
-      // for (let i= 0;i<godList.length;i++) {
+      let godListNew = []
 
-      // }
+      //for loop to create new gaurdian,hunter,assassin,mage,warrior arrays
+      for (let i= 0;i<godList.length;i++) {
+        if (godList[i].role == "Guardian") {
+          godListNew.push(godList[i]);
+        }
+        else if (godList[i].role == "Guardian") {
+          godListNew.push(godList[i]);
+        }
+        else if (godList[i].role == "Guardian") {
+          godListNew.push(godList[i]);
+        }
+        else if (godList[i].role == "Guardian") {
+          godListNew.push(godList[i]);
+        }
+        else if (godList[i].role == "Guardian") {
+          godListNew.push(godList[i]);
+        }
+      }
 
-      
-      
       let god = godList[selectRandomGod()];
       //saving god info into variables
       // let role = god.role;
@@ -73,7 +87,8 @@ function randomizer() {
 
       console.clear();
       console.log(god.name);
-      console.log(role, pantheon, attack_type, power_type);
+      console.log(god.role, god.pantheon, god.attack_type, god.power_type);
+      console.log(godListGuardian.length);
     });
 }
 function selectRandomGod() {
