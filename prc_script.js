@@ -1,4 +1,5 @@
 let championList = [];
+let championListNew = [];
 let picture = document.getElementById("hero");
 var img=new Image();
     
@@ -9,9 +10,49 @@ function randomizer() {
     })
     .then(function(data) {
       championList = data;
+
+      let sortClassType = document.getElementById("sortClassType").value;
+
+      //create class arrays
+      if (sortClassType == "Damage") {
+        championListNew = [];
+        for (let i= 0;i<championList.length;i++) {
+          if (championList[i].role == "Damage") {
+            championListNew.push(championList[i]);
+          }
+        }
+      }
+      else if (sortClassType == "Flank") {
+        championListNew = [];
+        for (let i= 0;i<championList.length;i++) {
+          if (championList[i].role == "Flank") {
+            championListNew.push(championList[i]);
+          }
+        }
+      }
+      else if (sortClassType == "Front Line") {
+        championListNew = [];
+        for (let i= 0;i<championList.length;i++) {
+          if (championList[i].role == "Front Line") {
+            championListNew.push(championList[i]);
+          }
+        }
+      }
+      else if (sortClassType == "Support") {
+        championListNew = [];
+        for (let i= 0;i<championList.length;i++) {
+          if (championList[i].role == "Support") {
+            championListNew.push(championList[i]);
+          }
+        }
+      }
+      else {
+        championListNew = [];
+        championListNew = championList;
+      }
       
       
-      let hero = championList[selectRandomHero()];
+      let hero = championListNew[selectRandomHero()];
       
       let name = hero.name;
       let letter = hero.name[0].toLowerCase();
@@ -39,12 +80,12 @@ function randomizer() {
       _role.appendChild(heroRole);
       
       console.clear();
-      console.log(hero.name);
-      console.log(hero.class);
+      console.log(hero.name, hero.class);
+      console.log(championListNew.length);
     });
 }
 function selectRandomHero() {
-  return parseInt(Math.floor(Math.random()*championList.length));
+  return parseInt(Math.floor(Math.random()*championListNew.length));
 }
 function preloadImage(url, callback) {
     img.src=url;
@@ -53,3 +94,7 @@ function preloadImage(url, callback) {
 function changePicture() {
     picture.src = img.src;
 }
+let button = document.querySelector("button");
+  button.addEventListener("click", () => {
+    randomizer();
+  });
