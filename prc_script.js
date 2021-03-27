@@ -16,7 +16,7 @@ function randomizer() {
         championListNew = championList;
       } else {
         championListNew = championList.filter(function(item) {
-          return item.role === sortClassType;
+          return item.class === sortClassType;
         })
       }
 

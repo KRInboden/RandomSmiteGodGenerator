@@ -19,10 +19,10 @@ function randomizer() {
 
       let sortRoleType = document.getElementById("sortRoleType").value;
       if(sortRoleType === "All") {
-        godListNew = godList
+        godListNew = godList;
       } else {
         godListNew = godList.filter(function(item) {
-          return item.role === sortRoleType
+          return item.role === sortRoleType;
         })
       }
       //console.log('godlistnew',godListNew )
