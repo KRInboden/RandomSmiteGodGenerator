@@ -12,44 +12,51 @@ function randomizer() {
       championList = data;
 
       let sortClassType = document.getElementById("sortClassType").value;
+      if(sortClassType === "All") {
+        championListNew = championList;
+      } else {
+        championListNew = championList.filter(function(item) {
+          return item.role === sortClassType;
+        })
+      }
 
       //create class arrays
-      if (sortClassType == "Damage") {
-        championListNew = [];
-        for (let i= 0;i<championList.length;i++) {
-          if (championList[i].role == "Damage") {
-            championListNew.push(championList[i]);
-          }
-        }
-      }
-      else if (sortClassType == "Flank") {
-        championListNew = [];
-        for (let i= 0;i<championList.length;i++) {
-          if (championList[i].role == "Flank") {
-            championListNew.push(championList[i]);
-          }
-        }
-      }
-      else if (sortClassType == "Front Line") {
-        championListNew = [];
-        for (let i= 0;i<championList.length;i++) {
-          if (championList[i].role == "Front Line") {
-            championListNew.push(championList[i]);
-          }
-        }
-      }
-      else if (sortClassType == "Support") {
-        championListNew = [];
-        for (let i= 0;i<championList.length;i++) {
-          if (championList[i].role == "Support") {
-            championListNew.push(championList[i]);
-          }
-        }
-      }
-      else {
-        championListNew = [];
-        championListNew = championList;
-      }
+      // if (sortClassType == "Damage") {
+      //   championListNew = [];
+      //   for (let i= 0;i<championList.length;i++) {
+      //     if (championList[i].role == "Damage") {
+      //       championListNew.push(championList[i]);
+      //     }
+      //   }
+      // }
+      // else if (sortClassType == "Flank") {
+      //   championListNew = [];
+      //   for (let i= 0;i<championList.length;i++) {
+      //     if (championList[i].role == "Flank") {
+      //       championListNew.push(championList[i]);
+      //     }
+      //   }
+      // }
+      // else if (sortClassType == "Front Line") {
+      //   championListNew = [];
+      //   for (let i= 0;i<championList.length;i++) {
+      //     if (championList[i].role == "Front Line") {
+      //       championListNew.push(championList[i]);
+      //     }
+      //   }
+      // }
+      // else if (sortClassType == "Support") {
+      //   championListNew = [];
+      //   for (let i= 0;i<championList.length;i++) {
+      //     if (championList[i].role == "Support") {
+      //       championListNew.push(championList[i]);
+      //     }
+      //   }
+      // }
+      // else {
+      //   championListNew = [];
+      //   championListNew = championList;
+      // }
       
       
       let hero = championListNew[selectRandomHero()];

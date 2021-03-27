@@ -25,7 +25,7 @@ function randomizer() {
           return item.role === sortRoleType
         })
       }
-      console.log('godlistnew',godListNew )
+      //console.log('godlistnew',godListNew )
 
       //create new gaurdian,hunter,assassin,mage,warrior arrays
       // if (sortRoleType == "Guardian") {
@@ -72,9 +72,9 @@ function randomizer() {
       //   godListNew = [];
       //   godListNew = godList;
       // }
-      let randomGodIndex = selectRandomGod()
-      console.log('randomgodindex', randomGodIndex)
-      let god = godListNew[randomGodIndex];
+      // let randomGodIndex = selectRandomGod()
+      // console.log('randomgodindex', randomGodIndex)
+      let god = godListNew[selectRandomGod()];
       //saving god info into variables
       // let role = god.role;
       // let pantheon = god.pantheon;
@@ -122,7 +122,7 @@ function randomizer() {
       let godPantheon = document.createTextNode("Pantheon: " + god.pantheon);
       _pantheon.appendChild(godPantheon);
 
-      // console.clear();
+      console.clear();
       console.log(god.name);
       console.log(god.role, god.pantheon, god.attack_type, god.power_type);
       console.log(godListNew.length);
